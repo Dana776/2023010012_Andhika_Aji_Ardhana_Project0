@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <H1>Belajar Javascript</H1>
+
+    <!-- Pertama mengunakan onclick dan juga Escape String -->
+    <p id='demo'>Belajar Javascript?</p>
+    <button type='button' onclick=" document.getElementById('demo').innerHTML='Ayo Belajar Javascript! jum\'at'">Click Disini</button>
+
+    <!-- Menampilkan DateTime -->
+    <p id="date"></p>
+    <button type="button" onclick="document.getElementById('date').innerHTML = Date()">Tampilkan Tanggal & Waktu</button>
+    <hr>
+    <!-- Menghidupkan Dan Mematikan Lampu -->
+
+    <h2>Belajar Menghidupkan Lampu Dengan Javascript</h2>
+    <!-- <img id="show" src="Assets/pic_bulboff.gif" alt="bulb" width="100px" style="display: none; margin-left: 120px;"> -->
+    <img id="bulb" src="Assets/pic_bulboff.gif" alt="bulb" width="100px" style="margin-left: 80px;">
+    <br>
+    <button type="button" onclick="bulbOn()">Hidupkan Lampu</button>
+    <button style="margin-left: 30px;" type="button" onclick="bulbOff()">Matikan Lampu</button>
+    <!-- <button style="margin-left: 30px;" type="button" onclick="tampilKan()">Tampilkan Lampu lagi</button> -->
+    <hr>
+    <br>
+    <a href="perhitungan.html"><button type="button">Ke Halaman Artimatika</button></a>
+    <br>
+    <button type="button" onclick="window.print()">Print Halaman</button>
+
+<script src="Assets/js/script.js"></script>
+</body>
+</html>
